@@ -1,0 +1,943 @@
+[02:41:26] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.8+9-Ubuntu-0ubuntu124.04.1; Ubuntu null) on Linux 6.8.0-1030-azure (amd64)
+[02:41:26] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.8-6-main@782ce95 (2025-07-18T20:26:58Z) for Minecraft 1.21.8
+[02:41:26] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[02:41:26] [ServerMain/INFO]: [PluginInitializerManager] Initialized 6 plugins
+[02:41:26] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (6):
+ - ItemEdit (3.7.4), LoginSecurity (3.3.0), OpenInv (5.1.15), SkinsRestorer (15.8.2), ViaBackwards (5.5.1), ViaVersion (5.5.1)
+[02:41:32] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[02:41:34] [ServerMain/INFO]: Loaded 1407 recipes
+[02:41:34] [ServerMain/INFO]: Loaded 1520 advancements
+[02:41:34] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[02:41:35] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 400.7ms
+[02:41:35] [Server thread/INFO]: Starting minecraft server version 1.21.8
+[02:41:35] [Server thread/INFO]: Loading properties
+[02:41:35] [Server thread/INFO]: This server is running Paper version 1.21.8-6-main@782ce95 (2025-07-18T20:26:58Z) (Implementing API version 1.21.8-R0.1-SNAPSHOT)
+[02:41:35] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[02:41:35] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[02:41:35] [Server thread/INFO]: Using 4 threads for Netty based IO
+[02:41:36] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[02:41:36] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[02:41:36] [Server thread/INFO]: Default game type: SURVIVAL
+[02:41:36] [Server thread/INFO]: Generating keypair
+[02:41:36] [Server thread/INFO]: Starting Minecraft server on *:25565
+[02:41:36] [Server thread/INFO]: Using epoll channel type
+[02:41:36] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[02:41:36] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[02:41:37] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loading 5 libraries... please wait
+[02:41:37] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/mcser/servidor_minecraft/libraries/net/kyori/adventure-api/4.20.0/adventure-api-4.20.0.jar
+[02:41:37] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/mcser/servidor_minecraft/libraries/net/kyori/adventure-key/4.20.0/adventure-key-4.20.0.jar
+[02:41:37] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/mcser/servidor_minecraft/libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar
+[02:41:37] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/mcser/servidor_minecraft/libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar
+[02:41:37] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/mcser/servidor_minecraft/libraries/org/jetbrains/annotations/26.0.2/annotations-26.0.2.jar
+[02:41:37] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/mcser/servidor_minecraft/libraries/net/kyori/adventure-platform-bukkit/4.3.4/adventure-platform-bukkit-4.3.4.jar
+[02:41:37] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/mcser/servidor_minecraft/libraries/net/kyori/adventure-platform-api/4.3.4/adventure-platform-api-4.3.4.jar
+[02:41:37] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/mcser/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-bungeecord/4.3.4/adventure-text-serializer-bungeecord-4.3.4.jar
+[02:41:37] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/mcser/servidor_minecraft/libraries/net/kyori/adventure-nbt/4.13.1/adventure-nbt-4.13.1.jar
+[02:41:37] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/mcser/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson-legacy-impl/4.13.1/adventure-text-serializer-gson-legacy-impl-4.13.1.jar
+[02:41:37] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/mcser/servidor_minecraft/libraries/net/kyori/adventure-platform-facet/4.3.4/adventure-platform-facet-4.3.4.jar
+[02:41:37] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/mcser/servidor_minecraft/libraries/net/kyori/adventure-platform-viaversion/4.3.4/adventure-platform-viaversion-4.3.4.jar
+[02:41:37] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/mcser/servidor_minecraft/libraries/net/kyori/adventure-text-minimessage/4.20.0/adventure-text-minimessage-4.20.0.jar
+[02:41:37] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/mcser/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson/4.20.0/adventure-text-serializer-gson-4.20.0.jar
+[02:41:37] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/mcser/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-json/4.20.0/adventure-text-serializer-json-4.20.0.jar
+[02:41:37] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/mcser/servidor_minecraft/libraries/net/kyori/option/1.1.0/option-1.1.0.jar
+[02:41:37] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/mcser/servidor_minecraft/libraries/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar
+[02:41:37] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/mcser/servidor_minecraft/libraries/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar
+[02:41:37] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/mcser/servidor_minecraft/libraries/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar
+[02:41:37] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/mcser/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-commons/4.20.0/adventure-text-serializer-commons-4.20.0.jar
+[02:41:37] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/mcser/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-legacy/4.20.0/adventure-text-serializer-legacy-4.20.0.jar
+[02:41:37] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.5.1
+[02:41:37] [Server thread/INFO]: [ViaVersion] ViaVersion 5.5.1 is now loaded. Registering protocol transformers and injecting...
+[02:41:38] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[02:41:38] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[02:41:39] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[02:41:39] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[02:41:39] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.5.1
+[02:41:39] [Server thread/INFO]: [OpenInv] Loading server plugin OpenInv v5.1.15
+[02:41:39] [Server thread/INFO]: [ItemEdit] Loading server plugin ItemEdit v3.7.4
+[02:41:39] [Server thread/INFO]: [LoginSecurity] Loading server plugin LoginSecurity v3.3.0
+[02:41:39] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.8.2
+[02:41:39] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[02:41:39] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.8.2
+[02:41:40] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.8.
+[02:41:41] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[02:41:41] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[02:41:41] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[02:41:41] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[02:41:41] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[02:41:41] [Server thread/INFO]: Preparing level "world"
+[02:41:41] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[02:41:41] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[02:41:41] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[02:41:41] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[02:41:41] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[02:41:41] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[02:41:41] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[02:41:41] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.8.2
+[02:41:41] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: cf773a3
+[02:41:41] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[02:41:41] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[02:41:41] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[02:41:41] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[02:41:41] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[02:41:41] [Server thread/INFO]: Preparing spawn area: 0%
+[02:41:42] [Server thread/INFO]: Preparing spawn area: 2%
+[02:41:42] [Server thread/INFO]: Preparing spawn area: 85%
+[02:41:42] [Server thread/INFO]: Time elapsed: 1167 ms
+[02:41:42] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[02:41:43] [Server thread/INFO]: Preparing spawn area: 0%
+[02:41:43] [Server thread/INFO]: Preparing spawn area: 61%
+[02:41:43] [Server thread/INFO]: Time elapsed: 605 ms
+[02:41:43] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[02:41:43] [Server thread/INFO]: Preparing spawn area: 0%
+[02:41:43] [Server thread/INFO]: Time elapsed: 92 ms
+[02:41:43] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.5.1
+[02:41:43] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.7-1.21.8 (772)
+[02:41:43] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.5.1
+[02:41:43] [Server thread/INFO]: [OpenInv] Enabling OpenInv v5.1.15
+[02:41:43] [Server thread/INFO]: [ItemEdit] Enabling ItemEdit v3.7.4
+[02:41:43] [Server thread/INFO]: [ItemEdit] Hooking into MiniMessageAPI see https://webui.advntr.dev/
+[02:41:43] [Server thread/INFO]: [ItemEdit] Selected Storage Type: YAML
+[02:41:44] [Server thread/INFO]: [ItemEdit] Unable to hook into Vault
+[02:41:44] [Server thread/INFO]: [ItemEdit] # Enabled (took 246 ms)
+[02:41:44] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.3.0
+[02:41:44] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
+[02:41:44] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
+[02:41:44] [Server thread/INFO]: [LoginSecurity] Registering commands...
+[02:41:44] [Server thread/INFO]: [LoginSecurity] Registering listeners...
+[02:41:44] [Server thread/INFO]: [LoginSecurity] Using 1.12+ map captcha renderer
+[02:41:44] [Server thread/INFO]: [spark] Starting background profiler...
+[02:41:44] [Server thread/INFO]: Done preparing level "world" (3.573s)
+[02:41:44] [Server thread/INFO]: Running delayed init tasks
+[02:41:44] [Server thread/INFO]: Done (19.772s)! For help, type "help"
+[02:41:44] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[02:41:45] [User Authenticator #1/INFO]: UUID of player Lio_8282828 is afe59d96-d78d-3415-b76a-44759234d886
+[02:41:45] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [LoginSecurity]
+[02:41:45] [User Authenticator #0/INFO]: UUID of player ChamoMCYT is e3bc60ef-3608-3052-b185-8c7305f97a2b
+[02:41:46] [Server thread/INFO]: [Clan Azura] Lio_8282828 joined the game
+[02:41:47] [Server thread/INFO]: Lio_8282828[/127.110.0.38:53459] logged in with entity id 72 at ([world]-419.6633151462665, 68.7531999805212, 661.5052216611771)
+[02:41:47] [Server thread/INFO]: [Kingdom of Pekatin] ChamoMCYT joined the game
+[02:41:47] [Server thread/INFO]: ChamoMCYT[/127.140.223.173:48381] logged in with entity id 73 at ([world]572.6460666926083, 63.0, 624.2904372143246)
+[02:41:54] [User Authenticator #0/INFO]: UUID of player Gabrimeme is 14bb0fa4-08d4-32f2-9c7e-df11556bd81b
+[02:41:55] [Server thread/INFO]: [Kingdom of Kandila] Gabrimeme joined the game
+[02:41:55] [Server thread/INFO]: Gabrimeme[/127.246.125.254:41053] logged in with entity id 441 at ([world]-3.7011536707590413, -11.747796659746275, 9.840602888733464)
+[02:41:55] [Server thread/INFO]: Villager Villager['Farmer'/103, uuid='6617eced-3d65-4792-8a7f-fffaff07095c', l='ServerLevel[world]', x=-414.45, y=67.00, z=719.46, cpos=[-26, 44], tl=148, v=true] died, message: 'Farmer burned to death'
+[02:41:56] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 23563f04-6105-4039-ba39-4af2d0206b06, mapped to Bat['Bat'/506, uuid='23563f04-6105-4039-ba39-4af2d0206b06', l='ServerLevel[world]', x=15.94, y=-12.84, z=104.75, cpos=[0, 6], tl=0, v=true], can't add Bat['Bat'/525, uuid='23563f04-6105-4039-ba39-4af2d0206b06', l='ServerLevel[world]', x=16.75, y=-12.43, z=104.75, cpos=[1, 6], tl=0, v=false]
+[02:41:58] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 47432e21-b98f-4052-ba16-67cabe5f26b5, mapped to Bat['Bat'/558, uuid='47432e21-b98f-4052-ba16-67cabe5f26b5', l='ServerLevel[world]', x=94.75, y=17.99, z=71.51, cpos=[5, 4], tl=0, v=true], can't add Bat['Bat'/572, uuid='47432e21-b98f-4052-ba16-67cabe5f26b5', l='ServerLevel[world]', x=96.75, y=18.15, z=71.11, cpos=[6, 4], tl=0, v=false]
+[02:42:28] [Async Chat Thread - #0/INFO]: [Not Secure] <Gabrimeme> oigan
+[02:42:35] [Async Chat Thread - #0/INFO]: [Not Secure] <Gabrimeme> q estudiaran cuando esten en la u
+[02:42:38] [Async Chat Thread - #0/INFO]: [Not Secure] <ChamoMCYT> duerman
+[02:42:59] [Async Chat Thread - #0/INFO]: [Not Secure] <Gabrimeme> estuviera en mi base igual
+[02:43:30] [Async Chat Thread - #0/INFO]: [Not Secure] <Gabrimeme> estoy pa la wa de mi base ct
+[02:43:43] [Async Chat Thread - #0/INFO]: [Not Secure] <Gabrimeme> si no me tepean rompo todo mr
+[02:44:17] [Async Chat Thread - #0/INFO]: [Not Secure] <Gabrimeme> eran w
+[02:45:02] [Async Chat Thread - #0/INFO]: [Not Secure] <Lio_8282828> ELYTRA FILL GG
+[02:45:43] [User Authenticator #2/INFO]: UUID of player RKa is d5fd6206-42d1-3efa-8478-e777cc14279e
+[02:45:46] [Server thread/INFO]: RKa [Scripting] joined the game
+[02:45:46] [Server thread/INFO]: RKa[/127.217.59.124:52527] logged in with entity id 1988 at ([world]10.023492467941308, -10.011157917659785, 4.424824071041456)
+[02:45:49] [User Authenticator #2/INFO]: UUID of player Xautral is 86f4fd4a-173d-3e06-a1bf-669194d778d7
+[02:45:49] [Async Chat Thread - #0/INFO]: [Not Secure] <Gabrimeme> rka
+[02:45:54] [Async Chat Thread - #0/INFO]: [Not Secure] <Gabrimeme> mi base ;c
+[02:46:03] [Server thread/INFO]: Xautral [Founder] joined the game
+[02:46:03] [Server thread/INFO]: Xautral[/127.0.244.242:35581] logged in with entity id 2022 at ([world]5.5, -12.0, 2.5)
+[02:46:23] [Async Chat Thread - #0/INFO]: [Not Secure] <RKa> tenes cords ?
+[02:46:26] [Async Chat Thread - #0/INFO]: [Not Secure] <Gabrimeme> si
+[02:46:29] [Async Chat Thread - #1/INFO]: [Not Secure] <Gabrimeme> mas o menos
+[02:46:34] [Async Chat Thread - #1/INFO]: [Not Secure] <RKa> damelas por msg
+[02:46:49] [Server thread/INFO]: Gabrimeme issued server command: /msg RKa 260 1500
+[02:46:52] [Async Chat Thread - #0/INFO]: [Not Secure] <Gabrimeme> creo que eso era
+[02:47:03] [Server thread/INFO]: RKa issued server command: /tp 260 100 1500
+[02:47:03] [Server thread/INFO]: [RKa [Scripting]: Teleported RKa [Scripting] to 260.500000, 100.000000, 1500.500000]
+[02:47:08] [Server thread/INFO]: Xautral issued server command: /give @a crossbow[repairable={items:[acacia_button]},use_cooldown={seconds:0.6,cooldown_group:shield},item_model="minecraft:wooden_sword"]
+[02:47:08] [Server thread/INFO]: [Xautral [Founder]: Gave 1 [Crossbow] to 5]
+[02:47:20] [Server thread/INFO]: [Kingdom of Pekatin] ChamoMCYT was slain by Zombie
+[02:47:28] [Server thread/INFO]: RKa issued server command: /tp Gabrimeme RKa
+[02:47:28] [Server thread/INFO]: [RKa [Scripting]: Teleported [Kingdom of Kandila] Gabrimeme to RKa [Scripting]]
+[02:47:29] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> te apunto con mi espada
+[02:47:31] [Server thread/INFO]: [Xautral [Founder]: Set own game mode to Survival Mode]
+[02:47:32] [Server thread/INFO]: Xautral issued server command: /tp Gabrimeme
+[02:47:32] [Server thread/INFO]: [Xautral [Founder]: Teleported Xautral [Founder] to [Kingdom of Kandila] Gabrimeme]
+[02:47:33] [Async Chat Thread - #1/INFO]: [Not Secure] <Gabrimeme> jijiji
+[02:47:37] [Server thread/INFO]: ChamoMCYT lost connection: Timed out
+[02:47:37] [Server thread/INFO]: [Kingdom of Pekatin] ChamoMCYT left the game
+[02:47:39] [Server thread/INFO]: Xautral [Founder] has made the advancement [Ol' Betsy]
+[02:47:47] [Server thread/INFO]: [Xautral [Founder]: Set own game mode to Creative Mode]
+[02:47:52] [Server thread/INFO]: [Xautral [Founder]: Set own game mode to Survival Mode]
+[02:48:20] [Async Chat Thread - #1/INFO]: [Not Secure] <RKa> xat entonce como le hacemo
+[02:48:29] [Async Chat Thread - #1/INFO]: [Not Secure] <Xautral> VERGA
+[02:48:34] [Async Chat Thread - #1/INFO]: [Not Secure] <Xautral> sigamos con el metodo tradicionakl
+[02:48:37] [Server thread/INFO]: [Xautral [Founder]: Set own game mode to Creative Mode]
+[02:48:38] [Async Chat Thread - #1/INFO]: [Not Secure] <Gabrimeme> ataquen
+[02:48:42] [Async Chat Thread - #1/INFO]: [Not Secure] <Gabrimeme> mi reino peruano
+[02:48:43] [Async Chat Thread - #1/INFO]: [Not Secure] <RKa> xd ?
+[02:48:44] [Async Chat Thread - #1/INFO]: [Not Secure] <Xautral> mojang estan trabajando en comandos
+[02:48:44] [Server thread/INFO]: [Xautral [Founder]: Set own game mode to Survival Mode]
+[02:48:49] [Async Chat Thread - #1/INFO]: [Not Secure] <RKa> va
+[02:48:58] [Async Chat Thread - #1/INFO]: [Not Secure] <Lio_8282828> a volar putas xd
+[02:49:07] [Server thread/INFO]: RKa issued server command: /tp Lio_8282828
+[02:49:07] [Server thread/INFO]: [RKa [Scripting]: Teleported RKa [Scripting] to [Clan Azura] Lio_8282828]
+[02:49:09] [Async Chat Thread - #1/INFO]: [Not Secure] <Gabrimeme> reino periano
+[02:49:26] [Server thread/WARN]: Happy Ghast (vehicle of Xautral) moved wrongly! 0.40382828103293256
+[02:49:35] [Async Chat Thread - #1/INFO]: [Not Secure] <RKa> XD
+[02:49:40] [Async Chat Thread - #1/INFO]: [Not Secure] <Gabrimeme> ptm
+[02:49:50] [Async Chat Thread - #1/INFO]: [Not Secure] <Xautral> no Gabrimeme
+[02:49:51] [Async Chat Thread - #1/INFO]: [Not Secure] <RKa> bn habra q hacerlo a la antigua y aburrida forma :c
+[02:49:52] [Async Chat Thread - #1/INFO]: [Not Secure] <Gabrimeme> corre mrd
+[02:49:58] [Async Chat Thread - #1/INFO]: [Not Secure] <Xautral> no me hafgo responsable por la masacre que estoy apunto de haver
+[02:50:13] [Async Chat Thread - #1/INFO]: [Not Secure] <RKa> xD
+[02:50:40] [Server thread/INFO]: RKa issued server command: /inv
+[02:50:42] [Server thread/INFO]: [Xautral [Founder]: Set own game mode to Creative Mode]
+[02:50:44] [Server thread/INFO]: [Xautral [Founder]: Set own game mode to Survival Mode]
+[02:50:56] [Async Chat Thread - #1/INFO]: [Not Secure] <RKa> lag + 99999
+[02:51:02] [Server thread/INFO]: Xautral issued server command: /tps
+[02:51:03] [Async Chat Thread - #1/INFO]: [Not Secure] <RKa> int - 80000
+[02:51:11] [Async Chat Thread - #1/INFO]: [Not Secure] <RKa> fps 5 XD
+[02:51:20] [Server thread/INFO]: Xautral issued server command: /weather thunder
+[02:51:20] [Server thread/INFO]: [Xautral [Founder]: Set the weather to rain & thunder]
+[02:51:25] [Async Chat Thread - #1/INFO]: [Not Secure] <Lio_8282828> rka mirame
+[02:51:34] [Server thread/INFO]: [Kingdom of Kandila] Gabrimeme has made the advancement [Surge Protector]
+[02:51:34] [Server thread/INFO]: Xautral [Founder] has made the advancement [Surge Protector]
+[02:51:38] [Server thread/INFO]: RKa issued server command: /tp Lio_8282828
+[02:51:38] [Server thread/INFO]: [RKa [Scripting]: Teleported RKa [Scripting] to [Clan Azura] Lio_8282828]
+[02:51:41] [Async Chat Thread - #1/INFO]: [Not Secure] <Lio_8282828> soy re bueno con la ely xd
+[02:51:49] [Async Chat Thread - #1/INFO]: [Not Secure] <Xautral> y yo con el tridente
+[02:51:56] [Async Chat Thread - #1/INFO]: [Not Secure] <RKa> t veo
+[02:52:04] [Async Chat Thread - #0/INFO]: [Not Secure] <Lio_8282828> lag
+[02:52:07] [Async Chat Thread - #0/INFO]: [Not Secure] <Lio_8282828> xddd
+[02:52:10] [Server thread/INFO]: RKa was kicked due to keepalive timeout!
+[02:52:10] [Server thread/INFO]: RKa lost connection: Timed out
+[02:52:10] [Server thread/INFO]: RKa left the game
+[02:52:14] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> vas}
+[02:52:33] [Async Chat Thread - #0/INFO]: [Not Secure] <Lio_8282828> tengo 5% bye papus
+[02:52:35] [Server thread/INFO]: Lio_8282828 lost connection: Disconnected
+[02:52:35] [Server thread/INFO]: [Clan Azura] Lio_8282828 left the game
+[02:52:48] [Server thread/INFO]: [Kingdom of Kandila] Gabrimeme was slain by Xautral [Founder] using [Wooden Sword]
+[02:52:52] [Async Chat Thread - #0/INFO]: [Not Secure] <Gabrimeme> ;v
+[02:52:58] [Server thread/INFO]: Xautral issued server command: /tp @e[type=item] Gabrimeme
+[02:52:59] [Server thread/INFO]: [Xautral [Founder]: Teleported 23 entities to [Kingdom of Kandila] Gabrimeme]
+[02:53:00] [Server thread/INFO]: [Xautral [Founder]: Set own game mode to Creative Mode]
+[02:53:08] [Server thread/INFO]: Xautral issued server command: /enchant Xautral minecraft:riptide 3
+[02:53:08] [Server thread/INFO]: [Xautral [Founder]: Applied enchantment Riptide III to Xautral [Founder]'s item]
+[02:53:12] [Server thread/INFO]: Xautral issued server command: /enchant Xautral minecraft:unbreaking 3
+[02:53:12] [Server thread/INFO]: [Xautral [Founder]: Applied enchantment Unbreaking III to Xautral [Founder]'s item]
+[02:53:12] [Async Chat Thread - #0/INFO]: [Not Secure] <Gabrimeme> como se me van a romper tan rapidoooo
+[02:53:17] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> por el fil
+[02:53:22] [Server thread/INFO]: Xautral issued server command: /ie enchant sharpness 5
+[02:53:24] [Server thread/INFO]: Xautral issued server command: /ie enchant sharpness 5
+[02:53:25] [Async Chat Thread - #0/INFO]: [Not Secure] <Gabrimeme> a
+[02:53:29] [Server thread/INFO]: Xautral issued server command: /enchant Xautral minecraft:channeling
+[02:53:30] [Server thread/INFO]: Xautral issued server command: /enchant Xautral minecraft:channeling 10
+[02:53:37] [Server thread/INFO]: Xautral issued server command: /ie enchant channeling 10
+[02:53:39] [Server thread/INFO]: [Xautral [Founder]: Set own game mode to Survival Mode]
+[02:53:45] [Server thread/INFO]: Xautral issued server command: /inv Gabrimeme
+[02:53:56] [Server thread/INFO]: Xautral issued server command: /ie durability 0
+[02:53:57] [Server thread/INFO]: Xautral issued server command: /ie durability 0
+[02:53:58] [Server thread/INFO]: Xautral issued server command: /ie durability 0
+[02:53:59] [Server thread/INFO]: Xautral issued server command: /ie durability 0
+[02:54:02] [Server thread/INFO]: Xautral issued server command: /inv Gabrimeme
+[02:54:09] [Async Chat Thread - #0/INFO]: [Not Secure] <Gabrimeme> no tengo xp para reparar
+[02:54:15] [Async Chat Thread - #0/INFO]: [Not Secure] <Gabrimeme> me das un poco?
+[02:54:17] [Async Chat Thread - #0/INFO]: [Not Secure] <Gabrimeme> para la espada
+[02:54:20] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> checa tu armor
+[02:54:24] [Async Chat Thread - #0/INFO]: [Not Secure] <Gabrimeme> wi
+[02:54:26] [Async Chat Thread - #0/INFO]: [Not Secure] <Gabrimeme> grax
+[02:54:32] [Server thread/INFO]: Xautral issued server command: /ie enchant riptide 0
+[02:54:39] [Server thread/INFO]: [Xautral [Founder]: Set own game mode to Creative Mode]
+[02:54:45] [Server thread/INFO]: Xautral issued server command: /ie enchant loyalty 3
+[02:54:46] [Server thread/INFO]: [Xautral [Founder]: Set own game mode to Survival Mode]
+[02:54:52] [Server thread/WARN]: Xautral moved wrongly!
+[02:54:58] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> y tu espadA?
+[02:55:43] [Async Chat Thread - #0/INFO]: [Not Secure] <Gabrimeme> mis peruanos
+[02:55:56] [Async Chat Thread - #0/INFO]: [Not Secure] <Gabrimeme> nooo
+[02:55:58] [Async Chat Thread - #0/INFO]: [Not Secure] <Gabrimeme> xd
+[02:56:34] [Server thread/INFO]: [Xautral [Founder]: Set own game mode to Creative Mode]
+[02:56:35] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> aguanta
+[02:56:38] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> todo este tiempo tenía resistencia
+[02:56:41] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> no mames
+[02:56:42] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> conrazon
+[02:56:42] [Async Chat Thread - #0/INFO]: [Not Secure] <Gabrimeme> perame un poco
+[02:56:43] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> xd
+[02:56:48] [Async Chat Thread - #0/INFO]: [Not Secure] <Gabrimeme> q mi awela ta de cumple ahorita
+[02:56:51] [Async Chat Thread - #0/INFO]: [Not Secure] <Gabrimeme> tare afk
+[02:57:07] [Server thread/INFO]: Xautral issued server command: /effect clear Xautral minecraft:resistance
+[02:57:07] [Server thread/INFO]: [Xautral [Founder]: Removed effect Resistance from Xautral [Founder]]
+[02:57:07] [Server thread/INFO]: [Xautral [Founder]: Set own game mode to Survival Mode]
+[02:57:11] [Server thread/INFO]: Xautral issued server command: /summon minecraft:iron_golem
+[02:57:11] [Server thread/INFO]: [Xautral [Founder]: Summoned new Iron Golem]
+[02:57:25] [User Authenticator #3/INFO]: UUID of player uriel3921 is 321ef539-5cdf-356c-91a2-b949978db436
+[02:57:28] [Server thread/INFO]: [Clan Mafia] uriel3921 joined the game
+[02:57:28] [Server thread/INFO]: uriel3921[/127.76.197.9:44585] logged in with entity id 6813 at ([world]-3691.704413071385, 112.0, 4060.0415036004356)
+[02:57:31] [Server thread/INFO]: [Xautral [Founder]: Set own game mode to Creative Mode]
+[02:57:45] [Server thread/INFO]: Xautral issued server command: /scoreboard objectives setdisplay sidebar colonization
+[02:57:48] [Server thread/INFO]: Xautral issued server command: /scoreboard objectives setdisplay sideba
+[02:57:49] [Server thread/INFO]: Xautral issued server command: /scoreboard objectives setdisplay sidebar
+[02:57:49] [Server thread/INFO]: [Xautral [Founder]: Cleared any objectives in display slot sidebar]
+[02:57:51] [Server thread/INFO]: [Xautral [Founder]: Set own game mode to Survival Mode]
+[02:58:01] [Server thread/INFO]: [Xautral [Founder]: Set own game mode to Creative Mode]
+[02:58:05] [Server thread/INFO]: Xautral issued server command: /ie durability 15
+[02:58:10] [Server thread/INFO]: Xautral issued server command: /ie maxstacksize 15
+[02:58:19] [Server thread/INFO]: Xautral issued server command: /ie maxdurability 120
+[02:58:24] [Server thread/INFO]: Xautral issued server command: /ie maxstacksize 64
+[02:58:29] [Server thread/INFO]: [Xautral [Founder]: Set own game mode to Survival Mode]
+[02:58:36] [Server thread/INFO]: Xautral issued server command: /time set 0t
+[02:58:36] [Server thread/INFO]: [Xautral [Founder]: Set the time to 0]
+[02:58:38] [Server thread/INFO]: Xautral issued server command: /weather thunder
+[02:58:38] [Server thread/INFO]: [Xautral [Founder]: Set the weather to rain & thunder]
+[02:59:01] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> alv
+[02:59:04] [Server thread/INFO]: Xautral issued server command: /tp´ur
+[02:59:06] [Server thread/INFO]: Xautral issued server command: /tp uriel3921
+[02:59:06] [Server thread/INFO]: [Xautral [Founder]: Teleported Xautral [Founder] to [Clan Mafia] uriel3921]
+[02:59:07] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> uriel3921
+[02:59:08] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> mira
+[02:59:12] [Async Chat Thread - #2/INFO]: [Not Secure] <uriel3921> q
+[02:59:21] [Server thread/INFO]: Xautral issued server command: /summon minecraft:iron_golem
+[02:59:21] [Server thread/INFO]: [Xautral [Founder]: Summoned new Iron Golem]
+[02:59:50] [Server thread/INFO]: Xautral issued server command: /tps
+[03:00:01] [Async Chat Thread - #2/INFO]: [Not Secure] <uriel3921> xd
+[03:00:12] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> me esta costando trabajo
+[03:00:24] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> SI VISTE
+[03:00:27] [Async Chat Thread - #2/INFO]: [Not Secure] <uriel3921> si
+[03:00:28] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> esa si me salio
+[03:00:34] [Server thread/INFO]: Xautral issued server command: /summon minecraft:iron_golem ~ ~ ~ {NoAI:1b}
+[03:00:34] [Server thread/INFO]: [Xautral [Founder]: Summoned new Iron Golem]
+[03:00:52] [Server thread/INFO]: Xautral issued server command: /enchant Xautral minecraft:density 5
+[03:00:52] [Server thread/INFO]: [Xautral [Founder]: Applied enchantment Density V to Xautral [Founder]'s item]
+[03:00:54] [Server thread/INFO]: Xautral issued server command: /summon minecraft:iron_golem ~ ~ ~ {NoAI:1b}
+[03:00:54] [Server thread/INFO]: [Xautral [Founder]: Summoned new Iron Golem]
+[03:00:58] [Async Chat Thread - #2/INFO]: [Not Secure] <uriel3921> antes estaba mas roto
+[03:01:05] [Server thread/INFO]: Xautral issued server command: /tps
+[03:01:06] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> voy lag
+[03:01:10] [Async Chat Thread - #2/INFO]: [Not Secure] <uriel3921> xd
+[03:01:40] [Async Chat Thread - #2/INFO]: [Not Secure] <Gabrimeme> volvi
+[03:02:18] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> NO MAMES
+[03:02:19] [Server thread/INFO]: Xautral issued server command: /tp Gabrimeme
+[03:02:19] [Server thread/INFO]: [Xautral [Founder]: Teleported Xautral [Founder] to [Kingdom of Kandila] Gabrimeme]
+[03:02:20] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> Gabrimeme
+[03:02:21] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> ve esto
+[03:02:24] [Server thread/INFO]: Xautral issued server command: /summon minecraft:iron_golem ~ ~ ~ {NoAI:1b}
+[03:02:24] [Server thread/INFO]: [Xautral [Founder]: Summoned new Iron Golem]
+[03:02:25] [Async Chat Thread - #2/INFO]: [Not Secure] <Gabrimeme> va
+[03:02:35] [Async Chat Thread - #2/INFO]: [Not Secure] <Gabrimeme> xd
+[03:02:39] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> aguanta
+[03:02:42] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> es que voy alg
+[03:02:43] [Server thread/INFO]: Xautral issued server command: /weather thunder
+[03:02:43] [Server thread/INFO]: [Xautral [Founder]: Set the weather to rain & thunder]
+[03:02:48] [Async Chat Thread - #2/INFO]: [Not Secure] <Gabrimeme> se nota
+[03:02:52] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> no cuenta bien los golpes
+[03:02:54] [Async Chat Thread - #3/INFO]: [Not Secure] <Gabrimeme> xd
+[03:02:56] [Async Chat Thread - #3/INFO]: [Not Secure] <Gabrimeme> vava
+[03:03:08] [Server thread/INFO]: Xautral issued server command: /tps
+[03:03:10] [Async Chat Thread - #3/INFO]: [Not Secure] <Gabrimeme> fua
+[03:03:12] [Async Chat Thread - #3/INFO]: [Not Secure] <Gabrimeme> esta roto
+[03:03:17] [Server thread/INFO]: Xautral issued server command: /summon minecraft:iron_golem ~ ~ ~ {NoAI:1b}
+[03:03:17] [Server thread/INFO]: [Xautral [Founder]: Summoned new Iron Golem]
+[03:03:24] [Async Chat Thread - #3/INFO]: [Not Secure] <Gabrimeme> fuaaa
+[03:03:24] [Async Chat Thread - #3/INFO]: [Not Secure] <Xautral> YA VES?
+[03:03:29] [Async Chat Thread - #3/INFO]: [Not Secure] <Gabrimeme> 20 corazones de una
+[03:03:30] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> el tridente es una arma infravalorada
+[03:03:34] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> sin fuerza
+[03:03:35] [Async Chat Thread - #2/INFO]: [Not Secure] <Gabrimeme> cierto
+[03:03:39] [Async Chat Thread - #2/INFO]: [Not Secure] <Gabrimeme> yo tengo uno si
+[03:03:43] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> quedate quieto
+[03:03:57] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> no cuental os golpes lptm
+[03:04:00] [Async Chat Thread - #2/INFO]: [Not Secure] <Gabrimeme> xd
+[03:04:10] [Async Chat Thread - #2/INFO]: [Not Secure] <Gabrimeme> ay w
+[03:04:11] [Server thread/INFO]: Xautral issued server command: /inv Gabrimeme
+[03:04:13] [Async Chat Thread - #2/INFO]: [Not Secure] <Gabrimeme> q lagaso
+[03:04:17] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> tampoco está tan roto
+[03:04:22] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> te quitó 185 puntos de durabildad
+[03:04:28] [Async Chat Thread - #2/INFO]: [Not Secure] <Gabrimeme> esta roto para cuando hay lluvia
+[03:04:32] [Async Chat Thread - #2/INFO]: [Not Secure] <Gabrimeme> mmm
+[03:04:39] [Async Chat Thread - #2/INFO]: [Not Secure] <Gabrimeme> gracias por el dato xau
+[03:04:46] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> ahoar
+[03:04:47] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> imaginate:
+[03:04:49] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> la lanza
+[03:04:50] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> por vertical
+[03:04:51] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> el mazo
+[03:04:53] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> no
+[03:04:53] [Async Chat Thread - #2/INFO]: [Not Secure] <Gabrimeme> ufff
+[03:04:55] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> la lanza por horizontal
+[03:04:58] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> el mazo por vertical
+[03:05:03] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> y el tridente como impulsador
+[03:05:12] [Async Chat Thread - #2/INFO]: [Not Secure] <Gabrimeme> cuando agreguen la lanza las guerras deberian de ser a caballo
+[03:05:20] [Server thread/INFO]: Xautral issued server command: /tp uriel3921
+[03:05:20] [Server thread/INFO]: [Xautral [Founder]: Teleported Xautral [Founder] to [Clan Mafia] uriel3921]
+[03:05:33] [Server thread/INFO]: Xautral issued server command: /summon minecraft:iron_golem ~ ~ ~ {NoAI:1b}
+[03:05:33] [Server thread/INFO]: [Xautral [Founder]: Summoned new Iron Golem]
+[03:05:44] [Server thread/INFO]: Xautral issued server command: /summon minecraft:iron_golem ~ ~ ~ {NoAI:1b}
+[03:05:44] [Server thread/INFO]: [Xautral [Founder]: Summoned new Iron Golem]
+[03:05:49] [Async Chat Thread - #2/INFO]: [Not Secure] <Gabrimeme> uriel
+[03:05:50] [Server thread/INFO]: Xautral issued server command: /summon minecraft:iron_golem ~ ~ ~ {NoAI:1b}
+[03:05:50] [Server thread/INFO]: [Xautral [Founder]: Summoned new Iron Golem]
+[03:05:52] [Async Chat Thread - #3/INFO]: [Not Secure] <Gabrimeme> me debes plata w
+[03:06:11] [Server thread/INFO]: Xautral issued server command: /summon minecraft:iron_golem ~ ~ ~ {NoAI:1b}
+[03:06:11] [Server thread/INFO]: [Xautral [Founder]: Summoned new Iron Golem]
+[03:06:12] [Async Chat Thread - #3/INFO]: [Not Secure] <Xautral> hay un butg
+[03:06:17] [Async Chat Thread - #3/INFO]: [Not Secure] <Gabrimeme> en q
+[03:06:17] [Async Chat Thread - #3/INFO]: [Not Secure] <Xautral> y es que si vas con el tridente
+[03:06:18] [Async Chat Thread - #3/INFO]: [Not Secure] <Gabrimeme> ?
+[03:06:18] [Async Chat Thread - #3/INFO]: [Not Secure] <Xautral> muy arriba
+[03:06:25] [Async Chat Thread - #3/INFO]: [Not Secure] <Xautral> y luego pegas a un objetivo de arriba
+[03:06:27] [Async Chat Thread - #3/INFO]: [Not Secure] <Xautral> y no de abajo
+[03:06:30] [Async Chat Thread - #3/INFO]: [Not Secure] <Xautral> cuenta mucho mas daño
+[03:06:35] [Async Chat Thread - #3/INFO]: [Not Secure] <Gabrimeme> fua
+[03:06:56] [Async Chat Thread - #3/INFO]: [Not Secure] <Gabrimeme> xau
+[03:07:01] [Async Chat Thread - #3/INFO]: [Not Secure] <Gabrimeme> q estudiaras para la u
+[03:07:03] [Async Chat Thread - #3/INFO]: [Not Secure] <Gabrimeme> o ya estas
+[03:07:59] [Async Chat Thread - #3/INFO]: [Not Secure] <Xautral> estuidaré programación
+[03:08:03] [Async Chat Thread - #3/INFO]: [Not Secure] <Xautral> o diseño gráfico
+[03:08:05] [Server thread/INFO]: Xautral issued server command: /summon minecraft:iron_golem ~ ~ ~ {NoAI:1b}
+[03:08:05] [Server thread/INFO]: [Xautral [Founder]: Summoned new Iron Golem]
+[03:08:12] [Async Chat Thread - #3/INFO]: [Not Secure] <Gabrimeme> entonces el serv te sirve como practica no?
+[03:08:14] [Server thread/INFO]: Xautral issued server command: /summon minecraft:iron_golem ~ ~ ~ {NoAI:1b}
+[03:08:14] [Server thread/INFO]: [Xautral [Founder]: Summoned new Iron Golem]
+[03:08:22] [Server thread/INFO]: Xautral issued server command: /summon minecraft:iron_golem ~ ~ ~ {NoAI:1b}
+[03:08:22] [Server thread/INFO]: [Xautral [Founder]: Summoned new Iron Golem]
+[03:08:24] [Async Chat Thread - #3/INFO]: [Not Secure] <Xautral> si
+[03:08:24] [Async Chat Thread - #3/INFO]: [Not Secure] <Xautral> algo
+[03:08:28] [Async Chat Thread - #3/INFO]: [Not Secure] <Xautral> tambien por entretenimiento
+[03:08:38] [Async Chat Thread - #3/INFO]: [Not Secure] <Gabrimeme> cierto
+[03:08:40] [Async Chat Thread - #3/INFO]: [Not Secure] <Xautral> o diseño gráfico
+[03:08:41] [Async Chat Thread - #3/INFO]: [Not Secure] <Xautral> o diseño gráfico
+[03:08:41] [Async Chat Thread - #3/INFO]: [Not Secure] <Xautral> o diseño gráfico
+[03:08:41] [Async Chat Thread - #3/INFO]: [Not Secure] <Xautral> o diseño gráfico
+[03:08:43] [Server thread/INFO]: Xautral issued server command: /summon minecraft:iron_golem ~ ~ ~ {NoAI:1b}
+[03:08:43] [Server thread/INFO]: [Xautral [Founder]: Summoned new Iron Golem]
+[03:08:44] [Server thread/INFO]: Xautral issued server command: /summon minecraft:iron_golem ~ ~ ~ {NoAI:1b}
+[03:08:44] [Server thread/INFO]: [Xautral [Founder]: Summoned new Iron Golem]
+[03:08:44] [Async Chat Thread - #3/INFO]: [Not Secure] <Gabrimeme> yo estudiare arquitectura
+[03:08:44] [Server thread/INFO]: Xautral issued server command: /summon minecraft:iron_golem ~ ~ ~ {NoAI:1b}
+[03:08:44] [Server thread/INFO]: [Xautral [Founder]: Summoned new Iron Golem]
+[03:08:44] [Server thread/INFO]: Xautral issued server command: /summon minecraft:iron_golem ~ ~ ~ {NoAI:1b}
+[03:08:44] [Server thread/INFO]: [Xautral [Founder]: Summoned new Iron Golem]
+[03:08:44] [Server thread/INFO]: Xautral issued server command: /summon minecraft:iron_golem ~ ~ ~ {NoAI:1b}
+[03:08:44] [Server thread/INFO]: [Xautral [Founder]: Summoned new Iron Golem]
+[03:08:45] [Server thread/INFO]: Xautral issued server command: /summon minecraft:iron_golem ~ ~ ~ {NoAI:1b}
+[03:08:45] [Server thread/INFO]: [Xautral [Founder]: Summoned new Iron Golem]
+[03:08:47] [Async Chat Thread - #3/INFO]: [Not Secure] <Gabrimeme> yerra
+[03:08:52] [Server thread/INFO]: uriel3921 was kicked due to keepalive timeout!
+[03:08:52] [Server thread/INFO]: uriel3921 lost connection: Timed out
+[03:08:52] [Server thread/INFO]: uriel3921 left the game
+[03:08:55] [Async Chat Thread - #3/INFO]: [Not Secure] <Xautral> que es yerra?
+[03:08:59] [Async Chat Thread - #3/INFO]: [Not Secure] <Gabrimeme> y era
+[03:09:02] [Async Chat Thread - #3/INFO]: [Not Secure] <Gabrimeme> osea
+[03:09:13] [Async Chat Thread - #3/INFO]: [Not Secure] <Gabrimeme> a ver como lo explico
+[03:09:20] [Server thread/INFO]: Xautral issued server command: /weather thunder
+[03:09:20] [Server thread/INFO]: [Xautral [Founder]: Set the weather to rain & thunder]
+[03:09:24] [Async Chat Thread - #3/INFO]: [Not Secure] <Gabrimeme> es como decir y ya
+[03:09:39] [Async Chat Thread - #3/INFO]: [Not Secure] <Gabrimeme> cmo q no te importa lo q te digan los demas
+[03:09:42] [Async Chat Thread - #3/INFO]: [Not Secure] <Xautral> de que pais eras
+[03:09:45] [Async Chat Thread - #3/INFO]: [Not Secure] <Gabrimeme> chile
+[03:09:51] [Async Chat Thread - #3/INFO]: [Not Secure] <Gabrimeme> y tu?
+[03:09:55] [Async Chat Thread - #3/INFO]: [Not Secure] <Xautral> méxico
+[03:10:20] [Server thread/INFO]: Xautral issued server command: /summon minecraft:iron_golem ~ ~ ~ {NoAI:1b}
+[03:10:20] [Server thread/INFO]: [Xautral [Founder]: Summoned new Iron Golem]
+[03:10:20] [Server thread/INFO]: Xautral issued server command: /summon minecraft:iron_golem ~ ~ ~ {NoAI:1b}
+[03:10:20] [Server thread/INFO]: [Xautral [Founder]: Summoned new Iron Golem]
+[03:10:20] [Server thread/INFO]: Xautral issued server command: /summon minecraft:iron_golem ~ ~ ~ {NoAI:1b}
+[03:10:20] [Server thread/INFO]: [Xautral [Founder]: Summoned new Iron Golem]
+[03:10:20] [Server thread/INFO]: Xautral issued server command: /summon minecraft:iron_golem ~ ~ ~ {NoAI:1b}
+[03:10:20] [Server thread/INFO]: [Xautral [Founder]: Summoned new Iron Golem]
+[03:10:20] [Server thread/INFO]: Xautral issued server command: /summon minecraft:iron_golem ~ ~ ~ {NoAI:1b}
+[03:10:20] [Server thread/INFO]: [Xautral [Founder]: Summoned new Iron Golem]
+[03:10:21] [Server thread/INFO]: Xautral issued server command: /summon minecraft:iron_golem ~ ~ ~ {NoAI:1b}
+[03:10:21] [Server thread/INFO]: [Xautral [Founder]: Summoned new Iron Golem]
+[03:10:21] [Server thread/INFO]: Xautral issued server command: /summon minecraft:iron_golem ~ ~ ~ {NoAI:1b}
+[03:10:21] [Server thread/INFO]: [Xautral [Founder]: Summoned new Iron Golem]
+[03:10:21] [Server thread/INFO]: Xautral issued server command: /summon minecraft:iron_golem ~ ~ ~ {NoAI:1b}
+[03:10:21] [Server thread/INFO]: [Xautral [Founder]: Summoned new Iron Golem]
+[03:10:34] [Async Chat Thread - #3/INFO]: [Not Secure] <Gabrimeme> debo mejorar en pvp w
+[03:10:37] [Async Chat Thread - #3/INFO]: [Not Secure] <Gabrimeme> pero me da paja
+[03:11:09] [Async Chat Thread - #3/INFO]: [Not Secure] <Gabrimeme> soy muy malo
+[03:11:46] [Server thread/INFO]: Xautral issued server command: /summon minecraft:iron_golem ~ ~ ~ {NoAI:1b}
+[03:11:46] [Server thread/INFO]: [Xautral [Founder]: Summoned new Iron Golem]
+[03:12:12] [Async Chat Thread - #4/INFO]: [Not Secure] <Gabrimeme> xau
+[03:12:14] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> que
+[03:12:21] [Async Chat Thread - #4/INFO]: [Not Secure] <Gabrimeme> crees q el minecraft me sirve para la arqui?
+[03:12:23] [Server thread/INFO]: Xautral issued server command: /tp Gabrimeme
+[03:12:23] [Server thread/INFO]: [Xautral [Founder]: Teleported Xautral [Founder] to [Kingdom of Kandila] Gabrimeme]
+[03:12:27] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> simón
+[03:12:30] [Server thread/INFO]: Xautral issued server command: /summon minecraft:iron_golem ~ ~ ~ {NoAI:1b}
+[03:12:30] [Server thread/INFO]: [Xautral [Founder]: Summoned new Iron Golem]
+[03:12:30] [Server thread/INFO]: Xautral issued server command: /summon minecraft:iron_golem ~ ~ ~ {NoAI:1b}
+[03:12:30] [Server thread/INFO]: [Xautral [Founder]: Summoned new Iron Golem]
+[03:12:31] [Server thread/INFO]: Xautral issued server command: /summon minecraft:iron_golem ~ ~ ~ {NoAI:1b}
+[03:12:31] [Server thread/INFO]: [Xautral [Founder]: Summoned new Iron Golem]
+[03:12:31] [Server thread/INFO]: Xautral issued server command: /summon minecraft:iron_golem ~ ~ ~ {NoAI:1b}
+[03:12:31] [Server thread/INFO]: [Xautral [Founder]: Summoned new Iron Golem]
+[03:12:31] [Server thread/INFO]: Xautral issued server command: /summon minecraft:iron_golem ~ ~ ~ {NoAI:1b}
+[03:12:31] [Server thread/INFO]: [Xautral [Founder]: Summoned new Iron Golem]
+[03:12:41] [Async Chat Thread - #4/INFO]: [Not Secure] <Gabrimeme> como dices que me quedo mi mini castillo
+[03:12:53] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> del putisimo culo
+[03:12:56] [Async Chat Thread - #4/INFO]: [Not Secure] <Gabrimeme> xd
+[03:12:57] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> no tiene simetría
+[03:13:02] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> los piklares tienen 3 bloques de ancho
+[03:13:03] [Async Chat Thread - #4/INFO]: [Not Secure] <Gabrimeme> si se
+[03:13:03] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> y uno tiene 4
+[03:13:11] [Async Chat Thread - #4/INFO]: [Not Secure] <Gabrimeme> asi lo hize a proposito
+[03:13:16] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> si has notado que con el riptide haces daño automático?
+[03:13:19] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> osae
+[03:13:20] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> mira
+[03:13:24] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> quedate quieto
+[03:13:30] [Async Chat Thread - #4/INFO]: [Not Secure] <Gabrimeme> fua
+[03:13:30] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> no lo hice apropósito
+[03:13:32] [Async Chat Thread - #4/INFO]: [Not Secure] <Gabrimeme> es ciarto
+[03:13:35] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> es involuntario
+[03:13:41] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> hubiera estado op que al hacerlo el mazo se activara solo
+[03:13:48] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> ni anto
+[03:13:48] [Async Chat Thread - #4/INFO]: [Not Secure] <Gabrimeme> casi siempre es para movilidad
+[03:13:52] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> haría el tridente mas uitl
+[03:13:55] [Async Chat Thread - #4/INFO]: [Not Secure] <Gabrimeme> cierto
+[03:14:02] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> pero so si
+[03:14:06] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> si lo cambias rapido con un hacha
+[03:14:09] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> o con uan lanaz
+[03:14:47] [Async Chat Thread - #4/INFO]: [Not Secure] <Gabrimeme> xau
+[03:14:59] [User Authenticator #4/INFO]: UUID of player Lio_8282828 is afe59d96-d78d-3415-b76a-44759234d886
+[03:14:59] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> que
+[03:14:59] [Async Chat Thread - #4/INFO]: [Not Secure] <Gabrimeme> como puedo evitar una guerra sin que me anexen?
+[03:14:59] [Server thread/INFO]: Lio_8282828 (/127.110.0.38:48135) lost connection: Disconnected
+[03:15:03] [User Authenticator #4/INFO]: UUID of player Lio_8282828 is afe59d96-d78d-3415-b76a-44759234d886
+[03:15:04] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> ganandola
+[03:15:05] [Server thread/INFO]: [Clan Azura] Lio_8282828 joined the game
+[03:15:05] [Server thread/INFO]: Lio_8282828[/127.110.0.38:41181] logged in with entity id 12252 at ([world]-806.312640954394, 70.0, 1201.699999988079)
+[03:15:15] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> ey Lio_8282828
+[03:15:17] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> descubrí un teruco
+[03:15:21] [Async Chat Thread - #4/INFO]: [Not Secure] <Gabrimeme> hay algun rol que pueda tomar como alguien neutro?
+[03:15:22] [Async Chat Thread - #4/INFO]: [Not Secure] <Lio_8282828> cual
+[03:15:24] [Server thread/INFO]: Xautral issued server command: /tp Lio_8282828
+[03:15:24] [Server thread/INFO]: [Xautral [Founder]: Teleported Xautral [Founder] to [Clan Azura] Lio_8282828]
+[03:15:25] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> mira
+[03:15:34] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> vete a un lguar plano
+[03:15:41] [Server thread/INFO]: Xautral issued server command: /weather thunder
+[03:15:41] [Server thread/INFO]: [Xautral [Founder]: Set the weather to rain & thunder]
+[03:15:42] [Server thread/INFO]: Xautral issued server command: /tp Lio_8282828
+[03:15:42] [Server thread/INFO]: [Xautral [Founder]: Teleported Xautral [Founder] to [Clan Azura] Lio_8282828]
+[03:15:44] [Server thread/INFO]: Xautral issued server command: /tp Lio_8282828
+[03:15:44] [Server thread/INFO]: [Xautral [Founder]: Teleported Xautral [Founder] to [Clan Azura] Lio_8282828]
+[03:15:45] [Server thread/INFO]: Xautral issued server command: /tp Lio_8282828
+[03:15:45] [Server thread/INFO]: [Xautral [Founder]: Teleported Xautral [Founder] to [Clan Azura] Lio_8282828]
+[03:15:45] [Async Chat Thread - #4/INFO]: [Not Secure] <Gabrimeme> si quieren vienen
+[03:15:46] [Server thread/INFO]: Xautral issued server command: /tp Lio_8282828
+[03:15:46] [Server thread/INFO]: [Xautral [Founder]: Teleported Xautral [Founder] to [Clan Azura] Lio_8282828]
+[03:15:46] [Server thread/INFO]: Xautral issued server command: /tp Lio_8282828
+[03:15:46] [Server thread/INFO]: [Xautral [Founder]: Teleported Xautral [Founder] to [Clan Azura] Lio_8282828]
+[03:15:46] [Server thread/INFO]: Xautral issued server command: /tp Lio_8282828
+[03:15:46] [Server thread/INFO]: [Xautral [Founder]: Teleported Xautral [Founder] to [Clan Azura] Lio_8282828]
+[03:15:47] [Server thread/INFO]: Xautral issued server command: /tp Lio_8282828
+[03:15:47] [Server thread/INFO]: [Xautral [Founder]: Teleported Xautral [Founder] to [Clan Azura] Lio_8282828]
+[03:15:47] [Server thread/INFO]: Xautral issued server command: /tp Lio_8282828
+[03:15:47] [Server thread/INFO]: [Xautral [Founder]: Teleported Xautral [Founder] to [Clan Azura] Lio_8282828]
+[03:15:48] [Server thread/INFO]: Xautral issued server command: /tp Lio_8282828
+[03:15:48] [Server thread/INFO]: [Xautral [Founder]: Teleported Xautral [Founder] to [Clan Azura] Lio_8282828]
+[03:15:49] [Server thread/INFO]: Xautral issued server command: /tp Lio_8282828
+[03:15:49] [Server thread/INFO]: [Xautral [Founder]: Teleported Xautral [Founder] to [Clan Azura] Lio_8282828]
+[03:15:50] [Server thread/INFO]: Xautral issued server command: /tp Lio_8282828
+[03:15:50] [Server thread/INFO]: [Xautral [Founder]: Teleported Xautral [Founder] to [Clan Azura] Lio_8282828]
+[03:15:51] [Server thread/INFO]: Xautral issued server command: /tp Lio_8282828
+[03:15:51] [Server thread/INFO]: [Xautral [Founder]: Teleported Xautral [Founder] to [Clan Azura] Lio_8282828]
+[03:15:53] [Server thread/INFO]: Xautral issued server command: /tp Lio_8282828
+[03:15:53] [Server thread/INFO]: [Xautral [Founder]: Teleported Xautral [Founder] to [Clan Azura] Lio_8282828]
+[03:15:53] [Server thread/INFO]: [Xautral [Founder]: Set own game mode to Creative Mode]
+[03:15:57] [Server thread/WARN]: Lio_8282828 moved wrongly!
+[03:16:01] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> Lio_8282828
+[03:16:04] [Async Chat Thread - #4/INFO]: [Not Secure] <Lio_8282828> mande
+[03:16:04] [Async Chat Thread - #4/INFO]: [Not Secure] <Gabrimeme> estoy en ally con lio a si que no me importaria mucho
+[03:16:17] [Server thread/INFO]: Xautral issued server command: /fill ~12 ~12 ~12 ~-12 ~-12 ~-12 air replace minecraft:oak_leaves
+[03:16:17] [Server thread/INFO]: [Xautral [Founder]: Successfully filled 751 block(s)]
+[03:16:19] [Server thread/INFO]: Xautral issued server command: /fill ~12 ~12 ~12 ~-12 ~-12 ~-12 air replace minecraft:oak_log
+[03:16:19] [Server thread/INFO]: [Xautral [Founder]: Successfully filled 75 block(s)]
+[03:16:20] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> wacha
+[03:16:22] [Server thread/INFO]: [Xautral [Founder]: Set own game mode to Survival Mode]
+[03:16:30] [Server thread/INFO]: Xautral issued server command: /summon minecraft:iron_golem ~ ~ ~ {NoAI:1b}
+[03:16:30] [Server thread/INFO]: [Xautral [Founder]: Summoned new Iron Golem]
+[03:16:35] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> aguanta
+[03:16:38] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> que por mi lag no sale
+[03:16:50] [Async Chat Thread - #4/INFO]: [Not Secure] <Lio_8282828> mazo mas tridente?
+[03:16:53] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> si
+[03:16:57] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> pero poniendose trucha
+[03:16:59] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> aparte
+[03:17:04] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> el riptide hace daño automatico
+[03:17:04] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> mira
+[03:17:12] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> hace un critico
+[03:17:14] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> asi que con la lanza
+[03:17:22] [Async Chat Thread - #5/INFO]: [Not Secure] <Lio_8282828> xd
+[03:17:25] [Server thread/INFO]: Xautral issued server command: /summon minecraft:iron_golem ~ ~ ~ {NoAI:1b}
+[03:17:25] [Server thread/INFO]: [Xautral [Founder]: Summoned new Iron Golem]
+[03:17:25] [Server thread/INFO]: Xautral issued server command: /summon minecraft:iron_golem ~ ~ ~ {NoAI:1b}
+[03:17:25] [Server thread/INFO]: [Xautral [Founder]: Summoned new Iron Golem]
+[03:17:25] [Server thread/INFO]: Xautral issued server command: /summon minecraft:iron_golem ~ ~ ~ {NoAI:1b}
+[03:17:25] [Server thread/INFO]: [Xautral [Founder]: Summoned new Iron Golem]
+[03:17:36] [Async Chat Thread - #5/INFO]: [Not Secure] <Lio_8282828> bueno eh
+[03:17:49] [Async Chat Thread - #5/INFO]: [Not Secure] <Lio_8282828> oye
+[03:17:52] [Async Chat Thread - #5/INFO]: [Not Secure] <Xautral> que
+[03:17:55] [Async Chat Thread - #5/INFO]: [Not Secure] <Lio_8282828> me das 31 de polvora? porfis
+[03:18:03] [Async Chat Thread - #5/INFO]: [Not Secure] <Xautral> haber
+[03:18:06] [Async Chat Thread - #5/INFO]: [Not Secure] <Xautral> pero quedate quieto priemro
+[03:18:30] [Async Chat Thread - #5/INFO]: [Not Secure] <Xautral> que te quedes quieto pendejo
+[03:18:36] [Async Chat Thread - #5/INFO]: [Not Secure] <Lio_8282828> toy kieto
+[03:19:01] [Async Chat Thread - #5/INFO]: [Not Secure] <Xautral> ya
+[03:19:05] [Async Chat Thread - #5/INFO]: [Not Secure] <Xautral> toma
+[03:19:14] [Server thread/INFO]: Xautral issued server command: /tp Gabrimeme
+[03:19:14] [Server thread/INFO]: [Xautral [Founder]: Teleported Xautral [Founder] to [Kingdom of Kandila] Gabrimeme]
+[03:19:32] [Async Chat Thread - #5/INFO]: [Not Secure] <Lio_8282828> me das 31 de povora para los cohetes? porfavor
+[03:19:39] [Async Chat Thread - #5/INFO]: [Not Secure] <Xautral> cuanto oro ofrece
+[03:19:44] [Server thread/INFO]: [Kingdom of Kandila] Gabrimeme was smashed by Xautral [Founder]
+[03:19:46] [Async Chat Thread - #5/INFO]: [Not Secure] <Lio_8282828> dejame ver si tengo ahi
+[03:19:46] [Async Chat Thread - #5/INFO]: [Not Secure] <Gabrimeme> ay w
+[03:19:49] [Server thread/INFO]: Xautral issued server command: /tp Gabrimeme
+[03:19:49] [Server thread/INFO]: [Xautral [Founder]: Teleported Xautral [Founder] to [Kingdom of Kandila] Gabrimeme]
+[03:19:52] [Async Chat Thread - #5/INFO]: [Not Secure] <Gabrimeme> screamer
+[03:19:52] [Server thread/INFO]: Xautral issued server command: /inv g
+[03:19:55] [Async Chat Thread - #5/INFO]: [Not Secure] <Gabrimeme> xd
+[03:19:58] [Server thread/INFO]: Xautral issued server command: /tp @e[type=item] Gabrimeme
+[03:19:58] [Server thread/INFO]: [Xautral [Founder]: Teleported 77 entities to [Kingdom of Kandila] Gabrimeme]
+[03:19:59] [Async Chat Thread - #5/INFO]: [Not Secure] <Xautral> cabron
+[03:20:04] [Async Chat Thread - #5/INFO]: [Not Secure] <Xautral> te rompi tu armor
+[03:20:10] [Async Chat Thread - #5/INFO]: [Not Secure] <Xautral> te la hice cagada
+[03:20:10] [Async Chat Thread - #5/INFO]: [Not Secure] <Gabrimeme> nop
+[03:20:11] [Async Chat Thread - #5/INFO]: [Not Secure] <Xautral> con breach
+[03:20:12] [Async Chat Thread - #5/INFO]: [Not Secure] <Xautral> a no
+[03:20:17] [Async Chat Thread - #5/INFO]: [Not Secure] <Xautral> deja la enncanto con breach
+[03:20:18] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> quedate queit
+[03:20:21] [Async Chat Thread - #4/INFO]: [Not Secure] <Gabrimeme> va
+[03:20:24] [Server thread/INFO]: Xautral issued server command: /ie enchant breach 5
+[03:20:28] [Server thread/INFO]: [Kingdom of Kandila] Gabrimeme was smashed by Xautral [Founder]
+[03:20:31] [Server thread/INFO]: Xautral issued server command: /inv Gabrimeme
+[03:20:35] [Async Chat Thread - #4/INFO]: [Not Secure] <Gabrimeme> mi espadita ;c
+[03:20:36] [Server thread/INFO]: Xautral issued server command: /tp @e[type=item] Gabrimeme
+[03:20:36] [Server thread/INFO]: [Xautral [Founder]: Teleported 58 entities to [Kingdom of Kandila] Gabrimeme]
+[03:20:41] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> cabron ahora si te hice cagada
+[03:20:44] [Server thread/INFO]: Xautral issued server command: /inv Gabrimeme
+[03:20:47] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> no mames
+[03:20:52] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> le quité 300 de durabilidad
+[03:20:52] [Server thread/INFO]: [Xautral [Founder]: Set own game mode to Creative Mode]
+[03:20:55] [Async Chat Thread - #4/INFO]: [Not Secure] <Gabrimeme> xd
+[03:20:55] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> bueno
+[03:20:56] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> agk
+[03:20:58] [Async Chat Thread - #6/INFO]: [Not Secure] <Lio_8282828> xau te doy 20
+[03:21:00] [Async Chat Thread - #6/INFO]: [Not Secure] <Lio_8282828> de oro
+[03:21:01] [Async Chat Thread - #5/INFO]: [Not Secure] <Xautral> away with keyboard
+[03:21:04] [Server thread/INFO]: Xautral issued server command: /inv Lio_8282828
+[03:21:05] [Async Chat Thread - #5/INFO]: [Not Secure] <Gabrimeme> ahora perdi mi espada y mi pala w
+[03:21:06] [Server thread/INFO]: [Clan Azura] Lio_8282828 has made the advancement [Surge Protector]
+[03:21:07] [Server thread/INFO]: Xautral issued server command: /inv Lio_8282828
+[03:21:09] [Server thread/INFO]: Xautral issued server command: /inv Lio_8282828
+[03:21:12] [Async Chat Thread - #6/INFO]: [Not Secure] <Lio_8282828> xd?
+[03:21:16] [Server thread/INFO]: Xautral issued server command: /give Lio_8282828 minecraft:firework_rocket 20
+[03:21:16] [Server thread/INFO]: [Xautral [Founder]: Gave 20 [Firework Rocket] to [Clan Azura] Lio_8282828]
+[03:21:17] [Async Chat Thread - #5/INFO]: [Not Secure] <Xautral> no tienes
+[03:21:24] [Async Chat Thread - #5/INFO]: [Not Secure] <Lio_8282828> pero 31 de povora w
+[03:21:31] [Async Chat Thread - #5/INFO]: [Not Secure] <Lio_8282828> polvora
+[03:21:34] [Server thread/INFO]: Xautral issued server command: /inv dontletm
+[03:21:35] [Async Chat Thread - #5/INFO]: [Not Secure] <Lio_8282828> cohete no
+[03:21:41] [Server thread/INFO]: Xautral issued server command: /inv Lio_8282828
+[03:21:43] [Async Chat Thread - #5/INFO]: [Not Secure] <Xautral> aa
+[03:21:49] [Async Chat Thread - #5/INFO]: [Not Secure] <Xautral> vas a hacer la tecnica de la ballesta con cohetE?
+[03:21:52] [Server thread/INFO]: Xautral issued server command: /give Lio_8282828 minecraft:gunpowder 20
+[03:21:52] [Server thread/INFO]: [Xautral [Founder]: Gave 20 [Gunpowder] to [Clan Azura] Lio_8282828]
+[03:22:03] [Async Chat Thread - #5/INFO]: [Not Secure] <Gabrimeme> mrd
+[03:22:08] [Async Chat Thread - #5/INFO]: [Not Secure] <Lio_8282828> es mazo + elytra + cohete
+[03:22:17] [Async Chat Thread - #5/INFO]: [Not Secure] <Gabrimeme> xau
+[03:22:23] [Async Chat Thread - #5/INFO]: [Not Secure] <Gabrimeme> me devolverias mi espada porfa
+[03:22:23] [Async Chat Thread - #5/INFO]: [Not Secure] <Xautral> que
+[03:22:30] [Async Chat Thread - #5/INFO]: [Not Secure] <Xautral> la rompí
+[03:22:34] [Server thread/INFO]: Xautral issued server command: /inv Gabrimeme
+[03:22:36] [Async Chat Thread - #5/INFO]: [Not Secure] <Gabrimeme> bno
+[03:22:42] [Server thread/INFO]: Xautral issued server command: /give Gabrimeme minecraft:diamond_sword
+[03:22:42] [Server thread/INFO]: [Xautral [Founder]: Gave 1 [Diamond Sword] to [Kingdom of Kandila] Gabrimeme]
+[03:22:43] [Async Chat Thread - #5/INFO]: [Not Secure] <Xautral> toma
+[03:22:46] [Server thread/INFO]: Xautral issued server command: /inv Gabrimeme
+[03:22:47] [Async Chat Thread - #5/INFO]: [Not Secure] <Gabrimeme> grax
+[03:22:50] [Async Chat Thread - #5/INFO]: [Not Secure] <Gabrimeme> a
+[03:22:50] [Server thread/INFO]: Xautral issued server command: /enchant Xautral minecraft:sharpness 5
+[03:22:50] [Server thread/INFO]: [Xautral [Founder]: Applied enchantment Sharpness V to Xautral [Founder]'s item]
+[03:22:53] [Async Chat Thread - #5/INFO]: [Not Secure] <Gabrimeme> ;c
+[03:22:53] [Server thread/INFO]: Xautral issued server command: /enchant Xautral minecraft:unbreaking 3
+[03:22:53] [Server thread/INFO]: [Xautral [Founder]: Applied enchantment Unbreaking III to Xautral [Founder]'s item]
+[03:22:57] [Server thread/INFO]: Xautral issued server command: /enchant Xautral minecraft:mending
+[03:22:57] [Server thread/INFO]: [Xautral [Founder]: Applied enchantment Mending to Xautral [Founder]'s item]
+[03:22:59] [Server thread/INFO]: Villager Villager['Villager'/15387, uuid='c2a9f75d-2ad7-4dc0-abd2-94ff4aa45e6d', l='ServerLevel[world]', x=-362.70, y=65.00, z=696.20, cpos=[-23, 43], tl=3327, v=true] died, message: 'Villager was slain by Zombie'
+[03:23:00] [Server thread/INFO]: Xautral issued server command: /enchant Xautral minecraft:knockback 2
+[03:23:00] [Server thread/INFO]: [Xautral [Founder]: Applied enchantment Knockback II to Xautral [Founder]'s item]
+[03:23:03] [Server thread/INFO]: Xautral issued server command: /enchant Xautral minecraft:fire_aspect 3
+[03:23:05] [Server thread/INFO]: Xautral issued server command: /enchant Xautral minecraft:fire_aspect 2
+[03:23:05] [Server thread/INFO]: [Xautral [Founder]: Applied enchantment Fire Aspect II to Xautral [Founder]'s item]
+[03:23:05] [Server thread/INFO]: Villager Villager['Cleric'/15388, uuid='3acb7f90-9f0f-4d96-9169-c0c92c53550e', l='ServerLevel[world]', x=-361.65, y=65.00, z=695.62, cpos=[-23, 43], tl=3455, v=true] died, message: 'Cleric was slain by Zombie'
+[03:23:07] [Server thread/INFO]: Xautral issued server command: /inv Gabrimeme
+[03:23:12] [Server thread/INFO]: Xautral issued server command: /inv Gabrimeme
+[03:23:13] [Async Chat Thread - #5/INFO]: [Not Secure] <Gabrimeme> fuaaa
+[03:23:17] [Async Chat Thread - #5/INFO]: [Not Secure] <Gabrimeme> gracias c;;;
+[03:23:18] [Server thread/INFO]: Xautral issued server command: /enchant Xautral minecraft:sweeping_edge 5
+[03:23:19] [Server thread/INFO]: Xautral issued server command: /enchant Xautral minecraft:sweeping_edge 3
+[03:23:19] [Server thread/INFO]: [Xautral [Founder]: Applied enchantment Sweeping Edge III to Xautral [Founder]'s item]
+[03:23:23] [Server thread/INFO]: Xautral issued server command: /enchant Xautral minecraft:looting 3
+[03:23:23] [Server thread/INFO]: [Xautral [Founder]: Applied enchantment Looting III to Xautral [Founder]'s item]
+[03:23:24] [Async Chat Thread - #5/INFO]: [Not Secure] <Gabrimeme> ;c
+[03:23:24] [Server thread/INFO]: Xautral issued server command: /inv Gabrimeme
+[03:23:29] [Async Chat Thread - #5/INFO]: [Not Secure] <Xautral> ahora si
+[03:23:31] [Async Chat Thread - #5/INFO]: [Not Secure] <Gabrimeme> gracias c;;;
+[03:23:33] [Async Chat Thread - #5/INFO]: [Not Secure] <Gabrimeme> wiii
+[03:23:51] [Async Chat Thread - #5/INFO]: [Not Secure] <Lio_8282828> xau cuanto de oro pides por 11 de polvora
+[03:24:05] [Server thread/INFO]: Xautral issued server command: /inv Lio_8282828
+[03:24:09] [Async Chat Thread - #5/INFO]: [Not Secure] <Xautral> wey te di polvora
+[03:24:16] [Server thread/INFO]: Xautral issued server command: /give Lio_8282828 minecraft:gunpowder 20
+[03:24:16] [Server thread/INFO]: [Xautral [Founder]: Gave 20 [Gunpowder] to [Clan Azura] Lio_8282828]
+[03:24:18] [Server thread/INFO]: Xautral issued server command: /inv Lio_8282828
+[03:24:22] [Async Chat Thread - #5/INFO]: [Not Secure] <Lio_8282828> wueno kracia
+[03:24:25] [Async Chat Thread - #5/INFO]: [Not Secure] <Gabrimeme> lio
+[03:24:27] [Async Chat Thread - #5/INFO]: [Not Secure] <Lio_8282828> q
+[03:24:27] [Async Chat Thread - #5/INFO]: [Not Secure] <Xautral> gente estaré afk haciendo otra cosa
+[03:24:28] [Async Chat Thread - #5/INFO]: [Not Secure] <Gabrimeme> escuhas milo j?
+[03:24:30] [Async Chat Thread - #5/INFO]: [Not Secure] <Xautral> si se apaga lo prendo mañana
+[03:24:31] [Async Chat Thread - #5/INFO]: [Not Secure] <Lio_8282828> sk
+[03:24:31] [Async Chat Thread - #5/INFO]: [Not Secure] <Gabrimeme> bno
+[03:24:33] [Async Chat Thread - #5/INFO]: [Not Secure] <Lio_8282828> si
+[03:24:39] [Async Chat Thread - #5/INFO]: [Not Secure] <Xautral> no Gabrimeme escucho breakcore (un genero de musica)t
+[03:24:39] [Async Chat Thread - #5/INFO]: [Not Secure] <Gabrimeme> ei
+[03:24:42] [Async Chat Thread - #5/INFO]: [Not Secure] <Xautral> está chido
+[03:24:46] [Async Chat Thread - #5/INFO]: [Not Secure] <Xautral> bye
+[03:24:47] [Async Chat Thread - #5/INFO]: [Not Secure] <Gabrimeme> wi
+[03:24:48] [Server thread/INFO]: [Xautral [Founder]: Set own game mode to Spectator Mode]
+[03:24:48] [Async Chat Thread - #5/INFO]: [Not Secure] <Gabrimeme> bye
+[03:24:56] [Async Chat Thread - #5/INFO]: [Not Secure] <Gabrimeme> solifican12
+[03:24:58] [User Authenticator #5/INFO]: UUID of player uriel3921 is 321ef539-5cdf-356c-91a2-b949978db436
+[03:24:59] [Server thread/INFO]: [Clan Mafia] uriel3921 joined the game
+[03:24:59] [Server thread/INFO]: uriel3921[/127.108.179.95:55211] logged in with entity id 17417 at ([world]-3665.696069668236, 109.5625, 4083.9302296554793)
+[03:25:07] [Server thread/INFO]: Xautral issued server command: /tp Lio_8282828
+[03:25:07] [Server thread/INFO]: [Xautral [Founder]: Teleported Xautral [Founder] to [Clan Azura] Lio_8282828]
+[03:25:08] [Async Chat Thread - #5/INFO]: [Not Secure] <Xautral> Lio_8282828
+[03:25:10] [Async Chat Thread - #5/INFO]: [Not Secure] <Lio_8282828> a
+[03:25:11] [Async Chat Thread - #5/INFO]: [Not Secure] <Xautral> avisales a todos
+[03:25:12] [Async Chat Thread - #5/INFO]: [Not Secure] <Xautral> porfas
+[03:25:14] [Async Chat Thread - #5/INFO]: [Not Secure] <Lio_8282828> ok
+[03:25:15] [Server thread/INFO]: Xautral issued server command: /give @a minecraft:totem_of_undying 10
+[03:25:15] [Server thread/INFO]: [Xautral [Founder]: Gave 10 [Totem of Undying] to 4]
+[03:25:40] [Server thread/INFO]: uriel3921 issued server command: /msg Xautral es normal tantos totems?
+[03:25:49] [Server thread/INFO]: Xautral issued server command: /tell uriel3921 sik
+[03:25:50] [Server thread/INFO]: Xautral issued server command: /tell uriel3921 si
+[03:25:54] [Server thread/INFO]: uriel3921 issued server command: /tell Xautral ok
+[03:26:01] [Async Chat Thread - #5/INFO]: [Not Secure] <Gabrimeme> lio
+[03:26:04] [Async Chat Thread - #5/INFO]: [Not Secure] <Gabrimeme> cuanta arena tienes?
+[03:26:05] [Async Chat Thread - #5/INFO]: [Not Secure] <Lio_8282828> que
+[03:26:10] [Async Chat Thread - #5/INFO]: [Not Secure] <Lio_8282828> no tengo
+[03:26:22] [Server thread/INFO]: Xautral issued server command: /item replace entity Xautral weapon.mainhand from entity @n[type=minecraft:skeleton] weapon.offhand
+[03:26:22] [Server thread/INFO]: [Xautral [Founder]: Replaced a slot on Xautral [Founder] with [Air]]
+[03:26:22] [Async Chat Thread - #5/INFO]: [Not Secure] <Gabrimeme> bno
+[03:26:26] [Server thread/INFO]: Xautral issued server command: /item replace entity Xautral weapon.mainhand from entity @n[type=minecraft:skeleton] weapon.mainhand
+[03:26:26] [Server thread/INFO]: [Xautral [Founder]: Replaced a slot on Xautral [Founder] with [Bow]]
+[03:26:31] [Server thread/INFO]: [Xautral [Founder]: Set own game mode to Creative Mode]
+[03:26:43] [Server thread/INFO]: [Xautral [Founder]: Set own game mode to Spectator Mode]
+[03:27:07] [Server thread/INFO]: [Xautral [Founder]: Set own game mode to Creative Mode]
+[03:27:10] [Server thread/INFO]: Xautral issued server command: /summon minecraft:skeleton_horse ~ ~ ~ {SkeletonTrap:1b}
+[03:27:10] [Server thread/INFO]: [Xautral [Founder]: Summoned new Skeleton Horse]
+[03:27:13] [Server thread/INFO]: Xautral issued server command: /item replace entity Xautral weapon.mainhand from entity @n[type=minecraft:skeleton] weapon.mainhand
+[03:27:13] [Server thread/INFO]: [Xautral [Founder]: Replaced a slot on Xautral [Founder] with [Bow]]
+[03:27:16] [Server thread/INFO]: Xautral issued server command: /item replace entity Xautral weapon.mainhand from entity @n[type=minecraft:skeleton] weapon.mainhand
+[03:27:16] [Server thread/INFO]: [Xautral [Founder]: Replaced a slot on Xautral [Founder] with [Bow]]
+[03:27:19] [Server thread/INFO]: Xautral issued server command: /item replace entity Xautral weapon.mainhand from entity @n[type=minecraft:skeleton] weapon.mainhand
+[03:27:19] [Server thread/INFO]: [Xautral [Founder]: Replaced a slot on Xautral [Founder] with [Bow]]
+[03:27:21] [Server thread/INFO]: Xautral issued server command: /item replace entity Xautral weapon.mainhand from entity @n[type=minecraft:skeleton] weapon.mainhand
+[03:27:21] [Server thread/INFO]: [Xautral [Founder]: Replaced a slot on Xautral [Founder] with [Bow]]
+[03:27:31] [Server thread/INFO]: [Xautral [Founder]: Set own game mode to Spectator Mode]
+[03:27:33] [Server thread/INFO]: Xautral issued server command: /tp Lio_8282828
+[03:27:33] [Server thread/INFO]: [Xautral [Founder]: Teleported Xautral [Founder] to [Clan Azura] Lio_8282828]
+[03:29:19] [Async Chat Thread - #7/INFO]: [Not Secure] <Gabrimeme> oigan
+[03:29:24] [Async Chat Thread - #7/INFO]: [Not Secure] <Gabrimeme> les gusta el pvp?
+[03:29:30] [Async Chat Thread - #7/INFO]: [Not Secure] <Lio_8282828> a mi si
+[03:29:33] [Async Chat Thread - #7/INFO]: [Not Secure] <Lio_8282828> el mazo pvp
+[03:29:40] [Async Chat Thread - #7/INFO]: [Not Secure] <Gabrimeme> hare un coliseo
+[03:29:53] [Async Chat Thread - #7/INFO]: [Not Secure] <Gabrimeme> para 1v1
+[03:30:08] [Async Chat Thread - #7/INFO]: [Not Secure] <Gabrimeme> cerca del spawn yo creo
+[03:30:09] [Async Chat Thread - #7/INFO]: [Not Secure] <Gabrimeme> por 0 0
+[03:31:37] [Async Chat Thread - #9/INFO]: [Not Secure] <Gabrimeme> lio
+[03:31:40] [Async Chat Thread - #9/INFO]: [Not Secure] <Gabrimeme> tienes elytras?
+[03:31:41] [Async Chat Thread - #9/INFO]: [Not Secure] <Lio_8282828> q
+[03:31:44] [Async Chat Thread - #9/INFO]: [Not Secure] <Lio_8282828> si
+[03:31:47] [Async Chat Thread - #9/INFO]: [Not Secure] <Gabrimeme> cuantas
+[03:31:49] [Async Chat Thread - #9/INFO]: [Not Secure] <Lio_8282828> 1
+[03:31:57] [Async Chat Thread - #9/INFO]: [Not Secure] <Gabrimeme> cuanto oro pides por una?
+[03:32:02] [Async Chat Thread - #9/INFO]: [Not Secure] <Lio_8282828> no se pueden vender
+[03:32:04] [Async Chat Thread - #9/INFO]: [Not Secure] <Lio_8282828> pendejo
+[03:32:08] [Async Chat Thread - #9/INFO]: [Not Secure] <Gabrimeme> x
+[03:32:10] [Async Chat Thread - #9/INFO]: [Not Secure] <Gabrimeme> d
+[03:32:25] [Async Chat Thread - #9/INFO]: [Not Secure] <Lio_8282828> añarte juego mazo rocket
+[03:32:35] [Async Chat Thread - #9/INFO]: [Not Secure] <Gabrimeme> aña
+[03:32:39] [Async Chat Thread - #9/INFO]: [Not Secure] <Lio_8282828> añarge
+[03:32:41] [Async Chat Thread - #9/INFO]: [Not Secure] <Lio_8282828> aparte
+[03:32:47] [Async Chat Thread - #9/INFO]: [Not Secure] <Gabrimeme> mini pekka
+[03:32:56] [Async Chat Thread - #9/INFO]: [Not Secure] <Lio_8282828> soy añañin
+[03:33:02] [Async Chat Thread - #9/INFO]: [Not Secure] <Gabrimeme> jajaja
+[03:33:24] [Async Chat Thread - #9/INFO]: [Not Secure] <Gabrimeme> llevo mas de 1 pta hora aplanando
+[03:34:20] [Async Chat Thread - #9/INFO]: [Not Secure] <Lio_8282828> 4 manzanas de oro
+[03:34:49] [Async Chat Thread - #9/INFO]: [Not Secure] <Gabrimeme> hacen algun deporte?
+[03:34:56] [Async Chat Thread - #9/INFO]: [Not Secure] <Lio_8282828> yo
+[03:35:01] [Async Chat Thread - #9/INFO]: [Not Secure] <Lio_8282828> no
+[03:35:02] [Async Chat Thread - #9/INFO]: [Not Secure] <Lio_8282828> xd
+[03:35:04] [Async Chat Thread - #9/INFO]: [Not Secure] <Gabrimeme> xd
+[03:35:05] [Async Chat Thread - #9/INFO]: [Not Secure] <Lio_8282828> wueno me voy
+[03:35:08] [Async Chat Thread - #10/INFO]: [Not Secure] <Lio_8282828> temgo 8%
+[03:35:09] [Async Chat Thread - #10/INFO]: [Not Secure] <Gabrimeme> bno
+[03:35:10] [Async Chat Thread - #10/INFO]: [Not Secure] <Gabrimeme> bye
+[03:35:18] [Async Chat Thread - #10/INFO]: [Not Secure] <Lio_8282828> no dejo descansar mi cel
+[03:35:21] [Async Chat Thread - #10/INFO]: [Not Secure] <Gabrimeme> x
+[03:35:23] [Async Chat Thread - #10/INFO]: [Not Secure] <Gabrimeme> d
+[03:35:24] [Server thread/INFO]: Lio_8282828 lost connection: Disconnected
+[03:35:24] [Server thread/INFO]: [Clan Azura] Lio_8282828 left the game
+[03:35:39] [Async Chat Thread - #10/INFO]: [Not Secure] <uriel3921> gabri
+[03:35:42] [Async Chat Thread - #10/INFO]: [Not Secure] <Gabrimeme> dime
+[03:35:44] [Async Chat Thread - #10/INFO]: [Not Secure] <uriel3921> podes dormir?
+[03:35:48] [Async Chat Thread - #10/INFO]: [Not Secure] <Gabrimeme> bno
+[03:36:09] [Async Chat Thread - #10/INFO]: [Not Secure] <Gabrimeme> me cai de la cama xd
+[03:36:10] [Async Chat Thread - #10/INFO]: [Not Secure] <uriel3921> gracias
+[03:36:12] [Async Chat Thread - #10/INFO]: [Not Secure] <uriel3921> xd
+[03:36:12] [Async Chat Thread - #10/INFO]: [Not Secure] <Gabrimeme> de nada
+[03:36:20] [Async Chat Thread - #10/INFO]: [Not Secure] <Gabrimeme> oye uriel
+[03:36:23] [Async Chat Thread - #10/INFO]: [Not Secure] <uriel3921> q
+[03:36:26] [Async Chat Thread - #10/INFO]: [Not Secure] <Gabrimeme> como quedo tu isla
+[03:36:28] [Async Chat Thread - #10/INFO]: [Not Secure] <Gabrimeme> en hycraft
+[03:36:30] [Async Chat Thread - #10/INFO]: [Not Secure] <Gabrimeme> ?
+[03:36:44] [Async Chat Thread - #10/INFO]: [Not Secure] <uriel3921> pus la verdad la deje igual
+[03:36:48] [Async Chat Thread - #10/INFO]: [Not Secure] <Gabrimeme> xd
+[03:36:48] [Async Chat Thread - #10/INFO]: [Not Secure] <uriel3921> no me volvi a unir
+[03:36:52] [Async Chat Thread - #10/INFO]: [Not Secure] <Gabrimeme> x2
+[03:37:58] [Server thread/INFO]: Xautral issued server command: /tp Gabrimeme
+[03:37:58] [Server thread/INFO]: [Xautral [Founder]: Teleported Xautral [Founder] to [Kingdom of Kandila] Gabrimeme]
+[03:41:48] [Async Chat Thread - #11/INFO]: [Not Secure] <uriel3921> che
+[03:42:09] [Async Chat Thread - #11/INFO]: [Not Secure] <uriel3921> hasta que hora te conectas?
+[03:42:15] [Async Chat Thread - #11/INFO]: [Not Secure] <Gabrimeme> nse
+[03:42:20] [Async Chat Thread - #11/INFO]: [Not Secure] <Gabrimeme> cuando me de sueño me voy
+[03:42:34] [Async Chat Thread - #11/INFO]: [Not Secure] <uriel3921> bn me voy vuelvo en un rato chau
+[03:42:39] [Async Chat Thread - #11/INFO]: [Not Secure] <Gabrimeme> bno chau
+[03:42:41] [Server thread/INFO]: uriel3921 lost connection: Disconnected
+[03:42:41] [Server thread/INFO]: [Clan Mafia] uriel3921 left the game
+[03:42:48] [User Authenticator #6/INFO]: UUID of player goku_4765 is 011a3f8f-d438-3832-ad9f-bcaca251b065
+[03:42:48] [Async Chat Thread - #11/INFO]: [Not Secure] <Gabrimeme> VIVA EL POR
+[03:42:49] [Server thread/INFO]: [Kingdom of Pekatin] goku_4765 joined the game
+[03:42:49] [Server thread/INFO]: goku_4765[/127.183.3.27:40753] logged in with entity id 25578 at ([world]35.150138594585464, 64.0, -242.62779714654755)
+[03:42:52] [Async Chat Thread - #11/INFO]: [Not Secure] <Gabrimeme> MRD
+[03:43:09] [Async Chat Thread - #11/INFO]: [Not Secure] <Gabrimeme> goku_4765
+[03:43:14] [Async Chat Thread - #11/INFO]: [Not Secure] <Gabrimeme> te gusta el pvp?
+[03:43:22] [Async Chat Thread - #11/INFO]: [Not Secure] <goku_4765> mas omenos
+[03:43:26] [Async Chat Thread - #11/INFO]: [Not Secure] <goku_4765> pero si
+[03:43:28] [Async Chat Thread - #11/INFO]: [Not Secure] <Gabrimeme> es que hare un coliseo
+[03:43:36] [Async Chat Thread - #11/INFO]: [Not Secure] <Gabrimeme> asi habran pvp 1v1
+[03:43:44] [Async Chat Thread - #11/INFO]: [Not Secure] <goku_4765> te puedo ayudar?
+[03:43:51] [Async Chat Thread - #11/INFO]: [Not Secure] <Gabrimeme> lo hare cerca del spawn
+[03:43:53] [Async Chat Thread - #11/INFO]: [Not Secure] <Gabrimeme> aun no si
+[03:43:56] [Async Chat Thread - #11/INFO]: [Not Secure] <Gabrimeme> necesito mats
+[03:44:15] [Async Chat Thread - #11/INFO]: [Not Secure] <Gabrimeme> hare estilo un coliseo romano
+[03:44:15] [Async Chat Thread - #12/INFO]: [Not Secure] <goku_4765> te ayudo A conseguirlos
+[03:44:20] [Async Chat Thread - #12/INFO]: [Not Secure] <Gabrimeme> bno
+[03:44:29] [Server thread/INFO]: goku_4765 issued server command: /tpa grabriel
+[03:44:39] [Async Chat Thread - #12/INFO]: [Not Secure] <Gabrimeme> necesitare mucha arenisca
+[03:44:44] [Async Chat Thread - #12/INFO]: [Not Secure] <Gabrimeme> de por si mucha arena
+[03:44:55] [Server thread/INFO]: Xautral issued server command: /spectate goku_4765
+[03:45:04] [Server thread/INFO]: Xautral issued server command: /tp Gabrimeme
+[03:45:04] [Server thread/INFO]: [Xautral [Founder]: Teleported Xautral [Founder] to [Kingdom of Kandila] Gabrimeme]
+[03:45:07] [Async Chat Thread - #12/INFO]: [Not Secure] <goku_4765> yo estoy en una playa yo te yebo
+[03:45:11] [Async Chat Thread - #12/INFO]: [Not Secure] <Gabrimeme> vava
+[03:45:20] [Async Chat Thread - #12/INFO]: [Not Secure] <Gabrimeme> ve guardandola en un cofre
+[03:45:25] [Async Chat Thread - #12/INFO]: [Not Secure] <Gabrimeme> despues la ire a buscar
+[03:45:31] [Async Chat Thread - #12/INFO]: [Not Secure] <Gabrimeme> y te doy oro
+[03:46:02] [Async Chat Thread - #12/INFO]: [Not Secure] <goku_4765> bueno
+[03:46:25] [Async Chat Thread - #12/INFO]: [Not Secure] <goku_4765> oye asemos team?
+[03:46:29] [Async Chat Thread - #12/INFO]: [Not Secure] <Gabrimeme> ally?
+[03:46:39] [Async Chat Thread - #12/INFO]: [Not Secure] <goku_4765> que es ally?
+[03:46:41] [Async Chat Thread - #12/INFO]: [Not Secure] <Gabrimeme> aliado
+[03:46:49] [Async Chat Thread - #12/INFO]: [Not Secure] <goku_4765> dale
+[03:46:53] [Async Chat Thread - #12/INFO]: [Not Secure] <Gabrimeme> esta bien
+[03:47:14] [Async Chat Thread - #12/INFO]: [Not Secure] <Gabrimeme> imaginate soy tier 3 y estoy yo solo xd
+[03:47:53] [Async Chat Thread - #12/INFO]: [Not Secure] <goku_4765> no as reclutado a nadie?
+[03:47:59] [Async Chat Thread - #12/INFO]: [Not Secure] <Gabrimeme> a eduardo
+[03:48:03] [Async Chat Thread - #12/INFO]: [Not Secure] <Gabrimeme> pero no se conecta
+[03:48:13] [Async Chat Thread - #12/INFO]: [Not Secure] <goku_4765> me puedo unir?
+[03:48:18] [Async Chat Thread - #12/INFO]: [Not Secure] <Gabrimeme> y quiero gente para pvp
+[03:48:25] [Async Chat Thread - #12/INFO]: [Not Secure] <Gabrimeme> tendrias que preguntarle a xautral
+[03:48:30] [Async Chat Thread - #12/INFO]: [Not Secure] <goku_4765> yo soy bueno
+[03:48:31] [Async Chat Thread - #12/INFO]: [Not Secure] <Gabrimeme> porque ya estas en un raino
+[03:48:48] [Async Chat Thread - #12/INFO]: [Not Secure] <Gabrimeme> tendria qu ver
+[03:48:51] [Async Chat Thread - #12/INFO]: [Not Secure] <goku_4765> oye xeutral
+[03:48:55] [Async Chat Thread - #12/INFO]: [Not Secure] <Gabrimeme> esta afk
+[03:48:59] [Async Chat Thread - #12/INFO]: [Not Secure] <Gabrimeme> no contestara
+[03:49:05] [Async Chat Thread - #12/INFO]: [Not Secure] <goku_4765> ha ok
+[03:49:13] [Async Chat Thread - #12/INFO]: [Not Secure] <Gabrimeme> mañana vuelve creo
+[03:49:25] [Async Chat Thread - #12/INFO]: [Not Secure] <goku_4765> bro te paso cord
+[03:49:32] [Async Chat Thread - #12/INFO]: [Not Secure] <Gabrimeme> esta bien
+[03:50:31] [Async Chat Thread - #12/INFO]: [Not Secure] <goku_4765> son
+[03:50:33] [Server thread/INFO]: Gabrimeme issued server command: /vanish
+[03:51:10] [Async Chat Thread - #12/INFO]: [Not Secure] <goku_4765> -131
+[03:51:20] [Async Chat Thread - #12/INFO]: [Not Secure] <goku_4765> 68
+[03:51:52] [Async Chat Thread - #12/INFO]: [Not Secure] <Gabrimeme> ok
+[03:51:56] [Async Chat Thread - #12/INFO]: [Not Secure] <Gabrimeme> en un rato voy
+[03:52:04] [Async Chat Thread - #12/INFO]: [Not Secure] <Gabrimeme> que ahora mismo estoy aplanando
+[03:52:11] [Async Chat Thread - #12/INFO]: [Not Secure] <goku_4765> -131 68 -325 esas son las cord
+[03:52:20] [Async Chat Thread - #12/INFO]: [Not Secure] <Gabrimeme> vavava grax
+[03:52:48] [Server thread/INFO]: goku_4765 lost connection: Timed out
+[03:52:48] [Server thread/INFO]: [Kingdom of Pekatin] goku_4765 left the game
+[03:52:55] [Async Chat Thread - #12/INFO]: [Not Secure] <Gabrimeme> wi
+[03:52:59] [Async Chat Thread - #12/INFO]: [Not Secure] <Gabrimeme> esta para mi solo
+[03:55:16] [Async Chat Thread - #14/INFO]: [Not Secure] <Gabrimeme> ptm
+[03:55:19] [Async Chat Thread - #14/INFO]: [Not Secure] <Gabrimeme> xautral vuleveee
+[03:55:23] [Async Chat Thread - #14/INFO]: [Not Secure] <Gabrimeme> vuelveeee
+[03:55:29] [Async Chat Thread - #14/INFO]: [Not Secure] <Gabrimeme> te invoco
+[04:09:00] [Async Chat Thread - #16/INFO]: [Not Secure] <Xautral> YA BOY A APAAGAR EL SRV
+[04:09:04] [Async Chat Thread - #16/INFO]: [Not Secure] <Gabrimeme> NOOOOO
+[04:09:05] [Async Chat Thread - #16/INFO]: [Not Secure] <Xautral> volvi pero a que costo
+[04:09:11] [Async Chat Thread - #16/INFO]: [Not Secure] <Gabrimeme> pq?
+[04:09:12] [Async Chat Thread - #16/INFO]: [Not Secure] <Xautral> es que me voy a dormir amiko
+[04:09:15] [Async Chat Thread - #16/INFO]: [Not Secure] <Gabrimeme> bno
+[04:09:21] [Async Chat Thread - #16/INFO]: [Not Secure] <Xautral> bai
+[04:09:23] [Async Chat Thread - #16/INFO]: [Not Secure] <Gabrimeme> que descanses
+[04:09:24] [Async Chat Thread - #16/INFO]: [Not Secure] <Gabrimeme> byw
+[04:09:54] [Server thread/INFO]: Xautral lost connection: Kicked by an operator
+[04:09:54] [Server thread/INFO]: Xautral left the game
+[04:09:54] [Server thread/INFO]: Kicked Xautral [Founder]: Kicked by an operator
+[04:09:54] [Server thread/INFO]: Gabrimeme lost connection: Kicked by an operator
+[04:09:54] [Server thread/INFO]: Gabrimeme left the game
+[04:09:54] [Server thread/INFO]: Kicked [Kingdom of Kandila] Gabrimeme: Kicked by an operator
+[04:10:01] [User Authenticator #7/INFO]: UUID of player Gabrimeme is 14bb0fa4-08d4-32f2-9c7e-df11556bd81b
+[04:10:02] [Server thread/INFO]: [Kingdom of Kandila] Gabrimeme joined the game
+[04:10:02] [Server thread/INFO]: Gabrimeme[/127.246.125.254:58843] logged in with entity id 34748 at ([world]201.95765016659982, 63.0, 1466.7541337213465)
+[04:10:03] [Server thread/INFO]: Stopping the server
+[04:10:03] [Server thread/INFO]: Stopping server
+[04:10:03] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.8.2
+[04:10:03] [Server thread/INFO]: [LoginSecurity] Disabling LoginSecurity v3.3.0
+[04:10:03] [Server thread/INFO]: [LoginSecurity] Waiting for queued tasks...
+[04:10:03] [Server thread/INFO]: [LoginSecurity] ExecutorService shut down, ready to disable.
+[04:10:03] [Server thread/INFO]: [ItemEdit] Disabling ItemEdit v3.7.4
+[04:10:03] [Server thread/INFO]: [OpenInv] Disabling OpenInv v5.1.15
+[04:10:03] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.5.1
+[04:10:03] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.5.1
+[04:10:03] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[04:10:03] [Server thread/INFO]: Saving players
+[04:10:04] [Server thread/INFO]: Gabrimeme lost connection: Server closed
+[04:10:04] [Server thread/INFO]: Gabrimeme left the game
+[04:10:04] [Server thread/INFO]: Saving worlds
+[04:10:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[04:10:04] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[04:10:04] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[04:10:04] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[04:10:04] [Server thread/INFO]: [ChunkHolderManager] Saved 91 block chunks, 235 entity chunks, 0 poi chunks in world 'world' in 0.23s
+[04:10:04] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[04:10:04] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[04:10:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[04:10:04] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[04:10:04] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[04:10:04] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[04:10:04] [Server thread/INFO]: [ChunkHolderManager] Saved 1 block chunks, 1 entity chunks, 0 poi chunks in world 'world_nether' in 0.01s
+[04:10:04] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[04:10:04] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[04:10:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[04:10:04] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[04:10:04] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[04:10:04] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[04:10:04] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[04:10:04] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[04:10:04] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[04:10:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[04:10:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[04:10:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[04:10:04] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[04:10:04] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[04:10:04] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[04:10:04] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[04:10:04] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
